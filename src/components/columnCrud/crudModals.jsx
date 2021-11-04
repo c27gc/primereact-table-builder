@@ -101,7 +101,7 @@ const CrudModals = ({
   };
 
   const deleteInputDialogFooter = (
-    <>
+    <React.Fragment>
       <Button
         label="No"
         icon="pi pi-times"
@@ -114,11 +114,11 @@ const CrudModals = ({
         className="p-button-text"
         onClick={deleteInput}
       />
-    </>
+    </React.Fragment>
   );
 
   const inputDialogFooter = (
-    <>
+    <React.Fragment>
       <Button
         label="Cancel"
         icon="pi pi-times"
@@ -131,11 +131,11 @@ const CrudModals = ({
         className="p-button-text"
         onClick={saveInput}
       />
-    </>
+    </React.Fragment>
   );
 
   return (
-    <>
+    <React.Fragment>
       <Dialog
         visible={inputDialog}
         style={{
@@ -300,7 +300,7 @@ const CrudModals = ({
           )}
         </div>
       </Dialog>
-    </>
+    </React.Fragment>
   );
 };
 

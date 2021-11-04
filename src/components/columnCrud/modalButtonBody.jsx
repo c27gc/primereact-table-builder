@@ -17,7 +17,7 @@ const statusBodyTemplateClosure = (
   const statusBodyTemplate = (rowData) => {
     const StatusBodyTemplate = () => {
       return (
-        <>
+        <React.Fragment>
           <div>
             {hasUpdateButton ? <Button
               icon="pi pi-pencil"
@@ -37,7 +37,7 @@ const statusBodyTemplateClosure = (
               }}
             /> : null}
           </div>
-        </>
+        </React.Fragment>
       );
     };
 

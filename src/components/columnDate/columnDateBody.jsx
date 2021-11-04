@@ -3,7 +3,7 @@ import React from "react";
 const ColumnDateBodyClosure = (columnName) => {
   const ColumnDateBody = (rowData) => {
     return (
-      <>
+      <React.Fragment>
         <span
           className=""
           style={{
@@ -11,7 +11,7 @@ const ColumnDateBodyClosure = (columnName) => {
         >
           {rowData[columnName]}
         </span>
-      </>
+      </React.Fragment>
     );
   };
 

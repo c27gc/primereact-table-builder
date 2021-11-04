@@ -88,7 +88,7 @@ const TableHeader = ({
   };
 
   return (
-    <>
+    <React.Fragment>
       <h5>{title}</h5>
       <div className="p-d-flex p-ai-center export-buttons justify-left">
         <div>
@@ -122,7 +122,7 @@ const TableHeader = ({
         </div>
         <div>
           {createButton ? (
-            <>
+            <React.Fragment>
               <Button
                 label="Nuevo"
                 icon="pi pi-plus"
@@ -135,7 +135,7 @@ const TableHeader = ({
                   setInput(initialInput);
                 }}
               />
-            </>
+            </React.Fragment>
           ) : null}
         </div>
       </div>
@@ -152,7 +152,7 @@ const TableHeader = ({
           }
         })()}
       </div>
-    </>
+    </React.Fragment>
   );
 };
 

@@ -268,7 +268,7 @@ const GeneralTableComponent = ({
 
   return (
     <div className="">
-      <>
+      <React.Fragment>
         <DataTable
           ref={dataTableRef}
           value={data}
@@ -381,7 +381,7 @@ const GeneralTableComponent = ({
             currentForm={currentForm}
             setReRender={setReRender}
           />
-      </>
+      </React.Fragment>
     </div>
   );
 };
