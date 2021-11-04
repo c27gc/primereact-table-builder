@@ -1,18 +1,23 @@
 {
-    "name": "YOUR_PACKAGE_NAME",
+    "name": "primereact-table-builder",
     "version": "0.1.0",
     "description": "",
-    "main": "./lib/YOUR_COMPONENT.js",
+    "main": "./lib/primereact-table-builder.js",
     "license": "MIT",
     "scripts": {
         "build": "webpack"
     },
     "peerDependencies": {
-        "prop-types": "^15.6.0",
+        "primeflex": "^3.1.0",
+        "primeicons": "^4.1.0",
+        "primereact": "^7.0.0-rc.2",
         "react": "^16.0.0",
         "react-dom": "^16.0.0"
     },
     "devDependencies": {
+        "primeflex": "^3.1.0",
+        "primeicons": "^4.1.0",
+        "primereact": "^7.0.0-rc.2",
         "babel-core": "^6.21.0",
         "babel-loader": "^7.1.4",
         "babel-preset-env": "^1.6.1",
@@ -20,7 +25,6 @@
         "babel-preset-stage-0": "^6.24.1",
         "css-loader": "^3.5.1",
         "path": "^0.12.7",
-        "prop-types": "^15.6.0",
         "react": "^16.0.0",
         "react-dom": "^16.0.0",
         "style-loader": "^1.1.3",
