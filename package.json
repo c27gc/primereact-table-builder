@@ -2,7 +2,7 @@
     "name": "primereact-table-builder",
     "version": "0.1.0",
     "description": "",
-    "main": "./lib/primereact-table-builder.js",
+    "main": "./dist/index.js",
     "license": "MIT",
     "scripts": {
         "build": "webpack --mode production"
